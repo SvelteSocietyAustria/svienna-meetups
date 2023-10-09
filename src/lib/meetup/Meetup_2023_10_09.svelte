@@ -55,6 +55,221 @@
 </Slide>
 
 <Slide>
+	<p>3 Runes</p>
+	<ul>
+		<li>$state</li>
+		<li>$derived</li>
+		<li>$effect</li>
+	</ul>
+</Slide>
+
+<Slide animate>
+	<span class="flex" style="font-size: smaller">
+		<Code id="code" lines="2|5,6,7">
+			{`
+			<script>
+				let count = 0
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}
+			</button>
+		`}
+		</Code>
+	</span>
+</Slide>
+
+<Slide animate>
+	<span class="flex" style="font-size: smaller">
+		<Code id="code" lines="2-4">
+			{`
+			<script>
+				let count = 0
+
+				$: double = count * 2
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+	</span>
+</Slide>
+
+<Slide animate>
+	<span class="flex" style="font-size: smaller">
+		<Code id="code" lines="2-4">
+			{`
+			<script>
+				let count = 0
+
+				$: double = count * 2
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+		<Code id="code" lines="2-4">
+			{`
+			<script>
+				let count = $state(0)
+
+				let double = $derived(count * 2)
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+	</span>
+</Slide>
+
+<Slide animate>
+	<span class="flex" style="font-size: smaller">
+		<Code id="code" lines="2,8">
+			{`
+			<script>
+				import { browser } from "$app/environment"
+				
+				let count = 0
+
+				$: double = count * 2
+
+				$: browser && console.log(double)
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+		<Code id="code" lines="3">
+			{`
+			<script>
+				let count = $state(0)
+
+				let double = $derived(count * 2)
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+	</span>
+</Slide>
+
+<Slide animate>
+	<span class="flex" style="font-size: smaller">
+		<Code id="code" lines="7">
+			{`
+			<script>
+				import { browser } from "$app/environment"
+				
+				let count = 0
+
+				$: double = count * 2
+
+				$: browser && console.log(double)
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+		<Code id="code" lines="6-8">
+			{`
+			<script>
+				let count = $state(0)
+
+				let double = $derived(count * 2)
+
+				$effect(() => {
+					console.log(double);
+				});
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+	</span>
+</Slide>
+
+<Slide animate>
+	<span class="flex" style="font-size: smaller">
+		<Code id="code" lines="7">
+			{`
+			<script>
+				import { browser } from "$app/environment"
+				
+				let count = 0
+
+				$: double = count * 2
+
+				$: browser && console.log(double)
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+		<Code id="code" lines="6-8">
+			{`
+			<script>
+				let count = $state(0)
+
+				let double = $derived(count * 2)
+
+				$effect(() => {
+					console.log(double);
+				});
+			</script>
+
+			<button on:click={()=>{count++}}>
+				clicks: {count}, {double}
+			</button>
+		`}
+		</Code>
+	</span>
+	<span class="flex">
+		<p>js output: 95 lines</p>
+		<p>js output: 24 lines</p>
+	</span>
+</Slide>
+
+<Slide>
+	<p>3 Runes</p>
+	<ul>
+		<li>✅ $state</li>
+		<li>✅ $derived</li>
+		<li>✅ $effect</li>
+	</ul>
+</Slide>
+
+<Slide animate>
+	<p>Runes</p>
+	<ul>
+		<li>It's early announcement</li>
+		<li>They ask for feedback</li>
+		<li>Things can evolves</li>
+	</ul>
+</Slide>
+
+<Slide animate>
+	<p>Runes</p>
+	<br />
+	<p>What do 🫵 think?</p>
+</Slide>
+
+<Slide>
 	<span class="flex">
 		<p>👋 See you next time</p>
 		<img width="200" alt="logo" src={Logo} />
