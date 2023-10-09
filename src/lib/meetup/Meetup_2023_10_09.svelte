@@ -4,6 +4,7 @@
 	import Markdown from '../deck/markdown.svelte'
 	import Logo from '$lib/assets/Logo-Dark-Tagline.svg'
 	import Ivan from '$lib/assets/IVAN.jpg'
+	import Svelte5 from '$lib/assets/Svelte5.png'
 </script>
 
 <Slide>
@@ -12,6 +13,7 @@
 		<img width="200" alt="logo" src={Logo} />
 	</span>
 	<p>09 / 10 / 2023</p>
+	<p>Starts at 18:30</p>
 </Slide>
 
 <Slide id="list" animate>
@@ -246,6 +248,10 @@
 </Slide>
 
 <Slide>
+	<img src={Svelte5} alt="Svelte5" />
+</Slide>
+
+<Slide>
 	<p>3 Runes</p>
 	<ul>
 		<li>✅ $state</li>
@@ -274,7 +280,7 @@
 		<p>👋 See you next time</p>
 		<img width="200" alt="logo" src={Logo} />
 	</span>
-	<p>dd / MM / 202y</p>
+	<p>22 / 01 / 2024</p>
 </Slide>
 
 <style>
