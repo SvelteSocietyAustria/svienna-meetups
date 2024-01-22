@@ -2,7 +2,7 @@
 
 ## Slides
 
-👉 https://jycouet.github.io/svienna-meetups
+👉 https://sveltesocietyaustria.github.io/svienna-meetups
 
 ## Cloned from Post
 
