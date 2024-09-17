@@ -25,8 +25,8 @@
 			How to embrace Zod in your SvelteKit applications for schema validation and type safety by
 			Sasan Jaghori
 		</li>
-		<li>why the Svelte 5 API looks the way it does today by Simon Holthausen</li>
-		<li>Should we Date ?</li>
+		<li>Why the Svelte 5 API looks the way it does today by Simon Holthausen</li>
+		<li>Dates - an intersection of a romantic story and Dates in JS by Domenik Reitzner</li>
 		<br />
 		<li>Socialize</li>
 	</ul>
