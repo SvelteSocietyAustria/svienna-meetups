@@ -37,7 +37,7 @@
 		<p>👋 See you next time</p>
 		<img width="200" alt="logo" src={Logo} />
 	</span>
-	<p>10 / 12 / 2024</p>
+	<p>09 / 12 / 2024</p>
 	<p style="font-size: small;">https://www.meetup.com/svelte-society-austria/</p>
 </Slide>
 
