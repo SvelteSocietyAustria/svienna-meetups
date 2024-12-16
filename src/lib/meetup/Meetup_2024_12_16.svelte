@@ -69,12 +69,15 @@
 		<br />
 		<span class="speaker">
 			<img
-				src={'https://avatars.githubusercontent.com/u/9527076?v=4'}
-				alt="lmarti17"
+				src={'https://avatars.githubusercontent.com/u/8420481?v=4'}
+				alt="Lukas Stracke"
 				class="avatar"
 			/>
-			Recreating Instagram-style stories with Svelte
+			Astro for Svelte Developers
 		</span>
+
+		<span>&nbsp;</span>
+		<span style="float: right;">-- small break --</span>
 
 		<span class="speaker">
 			<img
@@ -87,11 +90,11 @@
 
 		<span class="speaker">
 			<img
-				src={'https://avatars.githubusercontent.com/u/8420481?v=4'}
-				alt="Lukas Stracke"
+				src={'https://avatars.githubusercontent.com/u/9527076?v=4'}
+				alt="lmarti17"
 				class="avatar"
 			/>
-			Astro for Svelte Developers
+			Recreating Instagram-style stories with Svelte
 		</span>
 	</ul>
 </Slide>
