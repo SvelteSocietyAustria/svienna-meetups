@@ -1,7 +1,14 @@
 <script lang="ts">
 	import Slide from '../deck/slide.svelte'
 	import Logo from '$lib/assets/Logo-Dark-Tagline.svg'
-	import svelte_summit_2024 from '$lib/assets/2024_12_16/svelte-summit.png'
+	import svelte_summit_2025 from '$lib/assets/2024_12_16/svelte-summit.png'
+	import svelte_summit_2025_qr from '$lib/assets/2024_12_16/Svelte_summit_Spring_2025.png'
+
+	import advent_of_svelte_blog_qr from '$lib/assets/2024_12_16/advent_of_svelte_blog_qr.png'
+	import advent_of_svelte_blog from '$lib/assets/2024_12_16/advent_of_svelte_blog.png'
+
+	import advent_of_svelte_challange_qr from '$lib/assets/2024_12_16/advent_of_svelte_challange_qr.png'
+	import advent_of_svelte_challange from '$lib/assets/2024_12_16/advent_of_svelte_challange.png'
 </script>
 
 <Slide>
@@ -25,8 +32,33 @@
 <Slide id="list" animate>
 	<p>What's up today?</p>
 	<ul>
-		<li>Intro</li>
-		<img src={svelte_summit_2024} alt="svelte summit 2024" />
+		<li>Intro - Svelte Summit 2025</li>
+		<div style="display: flex; gap: 1rem; align-items: center;">
+			<img src={svelte_summit_2025} style="width: 50%" alt="svelte summit 2024" />
+			<img src={svelte_summit_2025_qr} style="width: 50%" alt="svelte summit 2024" />
+		</div>
+	</ul>
+</Slide>
+
+<Slide id="list" animate>
+	<p>What's up today?</p>
+	<ul>
+		<li>Intro - Advent of Svelte once a day</li>
+		<div style="display: flex; gap: 1rem; align-items: center;">
+			<img src={advent_of_svelte_blog} style="width: 50%" alt="svelte summit 2024" />
+			<img src={advent_of_svelte_blog_qr} style="width: 50%" alt="svelte summit 2024" />
+		</div>
+	</ul>
+</Slide>
+
+<Slide id="list" animate>
+	<p>What's up today?</p>
+	<ul>
+		<li>Intro - Advent of Svelte challange</li>
+		<div style="display: flex; gap: 1rem; align-items: center;">
+			<img src={advent_of_svelte_challange} style="width: 50%" alt="svelte summit 2024" />
+			<img src={advent_of_svelte_challange_qr} style="width: 50%" alt="svelte summit 2024" />
+		</div>
 	</ul>
 </Slide>
 
@@ -69,7 +101,7 @@
 		<p>👋 See you next time</p>
 		<img width="200" alt="logo" src={Logo} />
 	</span>
-	<p>10 / 02 / 2025</p>
+	<p>03 / 02 / 2025 ?</p>
 	<p style="font-size: small;">https://www.meetup.com/svelte-society-austria/</p>
 </Slide>
 
