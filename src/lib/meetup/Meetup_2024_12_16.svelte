@@ -18,6 +18,8 @@
 	</span>
 	<p>16 / 12 / 2024</p>
 	<p>Starts at 18:30</p>
+	<br />
+	<div style="font-size: medium">🦋 @austria.sveltesociety.dev</div>
 </Slide>
 
 <Slide id="list" animate>
