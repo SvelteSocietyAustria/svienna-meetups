@@ -9,6 +9,9 @@
 
 	import advent_of_svelte_challange_qr from '$lib/assets/2024_12_16/advent_of_svelte_challange_qr.png'
 	import advent_of_svelte_challange from '$lib/assets/2024_12_16/advent_of_svelte_challange.png'
+
+	import logoAots from '$lib/assets/Logo-aots.svg'
+	import logoLeanCoders from '$lib/assets/Logo-LeanCoders.svg'
 </script>
 
 <Slide>
@@ -34,10 +37,23 @@
 <Slide id="list" animate>
 	<p>What's up today?</p>
 	<ul>
-		<li>Intro - Svelte Summit 2025</li>
-		<div style="display: flex; gap: 1rem; align-items: center;">
-			<img src={svelte_summit_2025} style="width: 50%" alt="svelte summit 2024" />
-			<img src={svelte_summit_2025_qr} style="width: 50%" alt="svelte summit 2024" />
+		<li>Intro</li>
+		<span class="text-center">Svelte Summit 2025</span>
+		<div class="flex justify-between gap-4 w-full">
+			<img src={svelte_summit_2025} class="w-1/3" alt="svelte summit 2024" />
+			<img src={svelte_summit_2025_qr} class="w-1/3" alt="svelte summit 2024 QR code" />
+		</div>
+	</ul>
+</Slide>
+
+<Slide id="list" animate>
+	<p>What's up today?</p>
+	<ul>
+		<li>Intro</li>
+		<span>Hosts</span>
+		<div class="flex justify-between gap-4 w-full">
+			<img src={logoAots} class="w-1/3" alt="aots" />
+			<img src={logoLeanCoders} class="w-1/3" alt="lean coders" />
 		</div>
 	</ul>
 </Slide>
