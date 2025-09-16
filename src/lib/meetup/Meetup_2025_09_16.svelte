@@ -82,8 +82,8 @@
 			</div>
 		</span>
 
-		<span>&nbsp;</span>
-		<span style="float: right;" class="small-break">-- Break --</span>
+		<!-- <span>&nbsp;</span>
+		<span style="float: right;" class="small-break">-- Break --</span> -->
 
 		<span class="speaker">
 			<img
