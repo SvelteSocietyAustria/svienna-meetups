@@ -14,6 +14,7 @@
 		<img width="200" alt="logo" src={Logo} />
 	</span>
 	<p>4² + 3² = 5²</p>
+	<p>45² = 2025</p>
 	<p>Starts at 18:30</p>
 	<br />
 	<div style="font-size: medium">🦋 @austria.sveltesociety.dev</div>
