@@ -13,7 +13,7 @@
 		<p>👋 Welcome to</p>
 		<img width="200" alt="logo" src={Logo} />
 	</span>
-	<p>16 / 09 / 2025</p>
+	<p>4² + 3² = 5²</p>
 	<p>Starts at 18:30</p>
 	<br />
 	<div style="font-size: medium">🦋 @austria.sveltesociety.dev</div>
@@ -33,7 +33,12 @@
 	<ul>
 		<li>Intro</li>
 		<img src={vite_conf_2025} alt="Vite Conf 2025" />
-		<center> Raffle </center>
+		<center style="font-size: small;"
+			><a
+				href="https://docs.google.com/presentation/d/1CBAafdOWi_qlZBlaQMqb_h28zvyoFZ9ioGbqtnsc8vA/edit?slide=id.g37a0bffbda8_0_53#slide=id.g37a0bffbda8_0_53"
+				>Slides</a
+			>
+		</center>
 	</ul>
 </Slide>
 
@@ -99,7 +104,7 @@
 		<p>👋 See you next time</p>
 		<img width="200" alt="logo" src={Logo} />
 	</span>
-	<p>dd / MM / 2025 ?</p>
+	<p>02 / 12 / 2025 ?</p>
 	<p style="font-size: small;">https://svelte.at</p>
 	<p style="font-size: small;">https://www.meetup.com/svelte-society-austria</p>
 </Slide>
