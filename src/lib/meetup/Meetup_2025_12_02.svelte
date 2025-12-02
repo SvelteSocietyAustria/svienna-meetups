@@ -60,13 +60,13 @@
 
 		<span class="speaker">
 			<img
-				src={'https://avatars.githubusercontent.com/u/76689341?v=4'}
-				alt="Housein Abo Shaar"
+				src={'https://avatars.githubusercontent.com/u/2931?v=4'}
+				alt="Michael Aufreiter"
 				class="avatar"
 			/>
 			<div class="talk-info">
-				<div>Svelte Under the Hood</div>
-				<div class="speaker-name">Housein Abo Shaar</div>
+				<div>CMS-Free, Editable Websites with Svelte and Svedit</div>
+				<div class="speaker-name">Michael Aufreiter</div>
 			</div>
 		</span>
 
@@ -87,13 +87,13 @@
 
 		<span class="speaker">
 			<img
-				src={'https://avatars.githubusercontent.com/u/2931?v=4'}
-				alt="Michael Aufreiter"
+				src={'https://avatars.githubusercontent.com/u/76689341?v=4'}
+				alt="Housein Abo Shaar"
 				class="avatar"
 			/>
 			<div class="talk-info">
-				<div>CMS-Free, Editable Websites with Svelte and Svedit</div>
-				<div class="speaker-name">Michael Aufreiter</div>
+				<div>Svelte Under the Hood</div>
+				<div class="speaker-name">Housein Abo Shaar</div>
 			</div>
 		</span>
 	</ul>
