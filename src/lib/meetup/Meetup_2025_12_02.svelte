@@ -28,7 +28,7 @@
 	<p>What's up today?</p>
 	<ul>
 		<li>Intro</li>
-		<span>Hosts</span>
+		<span>Host</span>
 		<div class="flex justify-between gap-4 w-full">
 			<img src={logoSentry} class="w-1/3" alt="sentry" />
 		</div>
