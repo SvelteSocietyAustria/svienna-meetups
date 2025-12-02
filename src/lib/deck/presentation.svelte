@@ -7,10 +7,14 @@
 	import Meetup_2025_04_28 from '$lib/meetup/Meetup_2025_04_28.svelte'
 	import Meetup_2025_06_23 from '$lib/meetup/Meetup_2025_06_23.svelte'
 	import Meetup_2025_09_16 from '$lib/meetup/Meetup_2025_09_16.svelte'
+	import Meetup_2025_12_02 from '$lib/meetup/Meetup_2025_12_02.svelte'
 	import Slide from './slide.svelte'
 </script>
 
 <!-- Latest last -->
+<Slide>
+	<Meetup_2025_12_02 />
+</Slide>
 <Slide>
 	<Meetup_2025_09_16 />
 </Slide>
